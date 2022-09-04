@@ -4,8 +4,8 @@
 }
 
 body {
-	margin: 10px;
-	background: #002F43;
+	margin: 0px;
+	background: #002F43 url(img/bg01.jpg) repeat-x;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #B9B9B9;
@@ -17,17 +17,33 @@ h1, h2, h3 {
 
 h1 {
 	font-size: 2em;
-    color: #8AC800;
+	color: #8AC800;
 }
 
 h2 {
 	font-size: 1.4em;
-    color: #8AC800;
+	color: #8AC800;
 }
 
 h3 {
 	font-size: 1em;
-    color: #8AC800;
+	color: #8AC800;
+}
+
+p {
+	margin-bottom: 1.5em;
+	line-height: 180%;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	color: #ffffff;
+	margin-bottom: 1.5em;
+	line-height: 150%;
 }
 
 img.left {
@@ -40,21 +56,136 @@ img.right {
 	margin: 5px 0px 0px 25px;
 }
 
-/* Contenido */
+/* Background */
+
+#bg1 {
+	background: url(img/bg02.jpg) no-repeat center top;
+}
+
+#bg2 {
+	background: url(img/bg03.jpg) no-repeat center top;
+}
+
+#bg3 {
+	background: url(img/bg04.jpg) repeat-y center top;
+}
+
+#bg4 {
+	background: url(img/bg05.jpg) no-repeat center top;
+}
+
+#bg5 {
+	background: url(img/bg06.jpg) no-repeat center bottom;
+}
+
+/* Header */
+
+#header {
+	width: 900px;
+	height: 145px;
+	margin: 0px auto;
+	color: #FFFFFF;
+}
+
+#header h1 {
+	float:inline-end ;
+	margin: 0px;
+	margin-left: 40%;
+	font-size: 40px;
+	text-transform: capitalize;
+	color: #8AC800;
+}
+
+#header a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 50px;
+	padding: 95px 25px 0px 0px;
+}
+
+/* Header2 */
+
+#header2 {
+	width: 900px;
+	height: 88px;
+	margin: 0px auto;
+}
+
+/* Mision y Vision */
+
+#menu {
+	float: left;
+}
+
+#menu a {
+	margin-left: 30px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+/* Buscador */
+
+#search {
+	float: right;
+}
+
+#search form {
+	margin: 0px;
+	padding: 35px 80px 0px 0px;
+}
+
+#search fieldset {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#search input.text {
+	width: 160px;
+	background: none;
+	border: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #AEC38B;
+}
+
+#search input.button {
+	display: none;
+}
+
+/* Page */
+
+#page {
+	width: 846px;
+	margin: 0px auto;
+	padding: 40px 0px 0px 0px;
+}
+
+/* Content */
 
 #content {
-    margin-top:  125px;
 	float: left;
-	width: 583px;
 }
 
 .post {
-    margin-bottom:  25px;
-    float: left;
 }
 
 .post .title {
 	height: 49px;
+	background: url(img/img.gif) no-repeat center;
+	color: #8AC800;
+}
+
+.post .title h1 {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 28px;
+	text-transform: capitalize;
+	text-align: center;
+	margin-left: 35%;
 }
 
 .post .title h2 {
@@ -62,9 +193,35 @@ img.right {
 	padding: 12px 0px 0px 24px;
 	font-size: 24px;
 	text-transform: capitalize;
-    color: #8AC800
+	margin-left: 30%;
 }
 
 .post .entry {
 	padding: 30px 23px 0px 23px;
+}
+
+.post .entry h3 {
+	font-size: 22px;
+	margin: 0px;
+}
+
+.post .entry a {
+	font-size: 18px;
+}
+
+/* Pie de Pagina */
+
+#footer {
+}
+
+#footer p {
+	margin: 0px;
+	padding: 20px 0px;
+	text-align: center;
+	text-transform: lowercase;
+	color: #566D77;
+}
+
+#footer a {
+	color: #8097A1;
 }
