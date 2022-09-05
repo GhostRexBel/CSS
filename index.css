@@ -119,11 +119,21 @@ img.right {
 }
 
 #menu a {
-	margin-left: 30px;
+	padding-left: 50px;
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: bold;
-	color: #000000;
+	color: #FFFFFF;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 27px 0px 0px 0px;
+	list-style: none;
+}
+
+#menu li {
+	float: left;
 }
 
 /* Buscador */
@@ -194,6 +204,14 @@ img.right {
 	font-size: 24px;
 	text-transform: capitalize;
 	margin-left: 30%;
+}
+
+.post .title h3 {
+	float: left;
+	padding: 12px 0px 0px 24px;
+	font-size: 24px;
+	text-transform: capitalize;
+	margin-left: 10%;
 }
 
 .post .entry {
